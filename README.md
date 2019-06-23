@@ -1,5 +1,7 @@
 # CarND-Path-Planning-Project
 Self-Driving Car Engineer Nanodegree Program
+
+The model documentation is located in the ModelDocumentation.md file: https://github.com/Wubuntu88/CarND-Path-Planning-Project/blob/master/ModelDocumentation.md
    
 ### Simulator.
 You can download the Term3 Simulator which contains the Path Planning Project from the [releases tab (https://github.com/udacity/self-driving-car-sim/releases/tag/T3_v1.2).  
