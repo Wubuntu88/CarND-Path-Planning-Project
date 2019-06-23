@@ -5,7 +5,7 @@ It is composed of several parts
 2) Lane Changing Logic
 3) Path Planner using the Spline method from the tutorial
 
-###1) Car following logic
+### 1) Car following logic
 For following a car, there are several things the models considers.
 The model checks to see if the car is too close to a lead car in front.
 If this is the case a flag is set, and the lead car velocity is recorded.
@@ -45,7 +45,7 @@ else {
 }
 ```
 
-###2) Lane Changing Logic
+### 2) Lane Changing Logic
 The controlled car will decide to change lanes when it is too close to a lead car,
 or when it wants to return to the middle lane and is free to do so.
 First, the case of the car being too close to a lead car will be discussed.
@@ -103,7 +103,7 @@ if(too_close) {
 .
 .
 ```
-###3) Path planning using the spline method from the tutorial.
+### 3) Path planning using the spline method from the tutorial.
 The spline path planner from the tutorial generates a spline using 2 points 
 that are based on where the car is and the last position of the car,
 as well as 3 points out ahead of the car.
